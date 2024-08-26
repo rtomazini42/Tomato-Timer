@@ -1,0 +1,347 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 720
+  ClientWidth = 480
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop, iPhone, iPad]
+  DesignerMasterStyle = 0
+  object Circle1: TCircle
+    Align = Center
+    Fill.Color = claTomato
+    Size.Width = 332.000000000000000000
+    Size.Height = 431.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object Label1: TLabel
+      Align = Center
+      StyledSettings = []
+      Size.Width = 215.000000000000000000
+      Size.Height = 194.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Verdana'
+      TextSettings.Font.Size = 44.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      Text = '00:00'
+      TabOrder = 0
+    end
+  end
+  object Layout1: TLayout
+    Align = Bottom
+    Position.Y = 608.000000000000000000
+    Size.Width = 480.000000000000000000
+    Size.Height = 112.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Reset: TRectangle
+      Align = Right
+      Fill.Kind = Gradient
+      Fill.Gradient.Points = <
+        item
+          Color = claTomato
+          Offset = 0.000000000000000000
+        end
+        item
+          Color = xFFFF2626
+          Offset = 1.000000000000000000
+        end>
+      Fill.Gradient.StartPosition.X = 0.500000000000000000
+      Fill.Gradient.StartPosition.Y = 1.000000000000000000
+      Fill.Gradient.StopPosition.X = 0.499999970197677600
+      Fill.Gradient.StopPosition.Y = 0.000000000000000000
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 25.000000000000000000
+      Margins.Right = 25.000000000000000000
+      Margins.Bottom = 25.000000000000000000
+      Position.X = 8.000000000000000000
+      Position.Y = 25.000000000000000000
+      Size.Width = 118.000000000000000000
+      Size.Height = 62.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      OnClick = ResetClick
+      object SkSvg1: TSkSvg
+        Align = Center
+        Svg.OverrideColor = claWhite
+        Svg.Source = 
+          '<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo' +
+          ', www.svgrepo.com, Generator: SVG Repo Mixer Tools -->'#13#10'<svg fil' +
+          'l="#000000" width="800px" height="800px" viewBox="0 0 24 24" xml' +
+          'ns="http://www.w3.org/2000/svg"><path d="M12 16c1.671 0 3-1.331 ' +
+          '3-3s-1.329-3-3-3-3 1.331-3 3 1.329 3 3 3z"/><path d="M20.817 11.' +
+          '186a8.94 8.94 0 0 0-1.355-3.219 9.053 9.053 0 0 0-2.43-2.43 8.95' +
+          ' 8.95 0 0 0-3.219-1.355 9.028 9.028 0 0 0-1.838-.18V2L8 5l3.975 ' +
+          '3V6.002c.484-.002.968.044 1.435.14a6.961 6.961 0 0 1 2.502 1.053' +
+          ' 7.005 7.005 0 0 1 1.892 1.892A6.967 6.967 0 0 1 19 13a7.032 7.0' +
+          '32 0 0 1-.55 2.725 7.11 7.11 0 0 1-.644 1.188 7.2 7.2 0 0 1-.858' +
+          ' 1.039 7.028 7.028 0 0 1-3.536 1.907 7.13 7.13 0 0 1-2.822 0 6.9' +
+          '61 6.961 0 0 1-2.503-1.054 7.002 7.002 0 0 1-1.89-1.89A6.996 6.9' +
+          '96 0 0 1 5 13H3a9.02 9.02 0 0 0 1.539 5.034 9.096 9.096 0 0 0 2.' +
+          '428 2.428A8.95 8.95 0 0 0 12 22a9.09 9.09 0 0 0 1.814-.183 9.014' +
+          ' 9.014 0 0 0 3.218-1.355 8.886 8.886 0 0 0 1.331-1.099 9.228 9.2' +
+          '28 0 0 0 1.1-1.332A8.952 8.952 0 0 0 21 13a9.09 9.09 0 0 0-.183-' +
+          '1.814z"/></svg>'
+      end
+    end
+    object Play: TRectangle
+      Align = Right
+      Fill.Kind = Gradient
+      Fill.Gradient.Points = <
+        item
+          Color = claTomato
+          Offset = 0.000000000000000000
+        end
+        item
+          Color = xFFFF2626
+          Offset = 1.000000000000000000
+        end>
+      Fill.Gradient.StartPosition.X = 0.500000000000000000
+      Fill.Gradient.StartPosition.Y = 1.000000000000000000
+      Fill.Gradient.StopPosition.X = 0.499999970197677600
+      Fill.Gradient.StopPosition.Y = 0.000000000000000000
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 25.000000000000000000
+      Margins.Right = 25.000000000000000000
+      Margins.Bottom = 25.000000000000000000
+      Position.X = 344.000000000000000000
+      Position.Y = 25.000000000000000000
+      Size.Width = 111.000000000000000000
+      Size.Height = 62.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      OnClick = PlayClick
+      object SkSvg3: TSkSvg
+        Align = Center
+        Svg.OverrideColor = claWhite
+        Svg.Source = 
+          '<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo' +
+          ', www.svgrepo.com, Generator: SVG Repo Mixer Tools -->'#13#10'<svg wid' +
+          'th="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns=' +
+          '"http://www.w3.org/2000/svg">'#13#10'<path d="M21.4086 9.35258C23.5305' +
+          ' 10.5065 23.5305 13.4935 21.4086 14.6474L8.59662 21.6145C6.53435' +
+          ' 22.736 4 21.2763 4 18.9671L4 5.0329C4 2.72368 6.53435 1.26402 8' +
+          '.59661 2.38548L21.4086 9.35258Z" fill="#1C274C"/>'#13#10'</svg>'
+      end
+    end
+    object Stop: TRectangle
+      Align = Right
+      Fill.Kind = Gradient
+      Fill.Gradient.Points = <
+        item
+          Color = claTomato
+          Offset = 0.000000000000000000
+        end
+        item
+          Color = xFFFF2626
+          Offset = 1.000000000000000000
+        end>
+      Fill.Gradient.StartPosition.X = 0.500000000000000000
+      Fill.Gradient.StartPosition.Y = 1.000000000000000000
+      Fill.Gradient.StopPosition.X = 0.499999970197677600
+      Fill.Gradient.StopPosition.Y = 0.000000000000000000
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 25.000000000000000000
+      Margins.Right = 25.000000000000000000
+      Margins.Bottom = 25.000000000000000000
+      Position.X = 176.000000000000000000
+      Position.Y = 25.000000000000000000
+      Size.Width = 118.000000000000000000
+      Size.Height = 62.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      OnClick = StopClick
+      object SkSvg2: TSkSvg
+        Align = Center
+        Svg.OverrideColor = claWhite
+        Svg.Source = 
+          '<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo' +
+          ', www.svgrepo.com, Generator: SVG Repo Mixer Tools -->'#13#10'<svg wid' +
+          'th="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns=' +
+          '"http://www.w3.org/2000/svg">'#13#10'<path d="M2 12C2 7.28595 2 4.9289' +
+          '3 3.46447 3.46447C4.92893 2 7.28595 2 12 2C16.714 2 19.0711 2 20' +
+          '.5355 3.46447C22 4.92893 22 7.28595 22 12C22 16.714 22 19.0711 2' +
+          '0.5355 20.5355C19.0711 22 16.714 22 12 22C7.28595 22 4.92893 22 ' +
+          '3.46447 20.5355C2 19.0711 2 16.714 2 12Z" fill="#1C274C"/>'#13#10'</sv' +
+          'g>'
+      end
+    end
+  end
+  object Temporizador: TTimer
+    OnTimer = TemporizadorTimer
+    Left = 432
+    Top = 520
+  end
+  object Rectangle1: TRectangle
+    Align = Top
+    Fill.Color = claTomato
+    Size.Width = 480.000000000000000000
+    Size.Height = 73.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object Layout2: TLayout
+      Align = Left
+      Size.Width = 113.000000000000000000
+      Size.Height = 73.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      object ComboBoxSprintTime: TComboBox
+        Align = Center
+        Items.Strings = (
+          '10'
+          '15'
+          '20'
+          '25'
+          '30'
+          '40'
+          '45'
+          '60')
+        ItemIndex = 3
+        Margins.Top = 20.000000000000000000
+        Margins.Bottom = 20.000000000000000000
+        Size.Width = 65.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+      end
+      object Label2: TLabel
+        Align = Top
+        StyledSettings = [Size, Style]
+        Size.Width = 113.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Verdana'
+        TextSettings.FontColor = claWhite
+        TextSettings.HorzAlign = Center
+        Text = 'Tempo Sprint'
+        TabOrder = 1
+      end
+    end
+    object Layout3: TLayout
+      Align = Right
+      Position.X = 254.000000000000000000
+      Size.Width = 113.000000000000000000
+      Size.Height = 73.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object ComboBoxLongBreakTime: TComboBox
+        Align = Center
+        Items.Strings = (
+          '5'
+          '10'
+          '15'
+          '20'
+          '25'
+          '30'
+          '40'
+          '45'
+          '60')
+        ItemIndex = 1
+        Margins.Top = 20.000000000000000000
+        Margins.Bottom = 20.000000000000000000
+        Size.Width = 65.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+      end
+      object Label3: TLabel
+        Align = Top
+        StyledSettings = [Size, Style]
+        Size.Width = 113.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Verdana'
+        TextSettings.FontColor = claWhite
+        TextSettings.HorzAlign = Center
+        Text = 'Tempo de Intervalo longo'
+        TabOrder = 1
+      end
+    end
+    object Layout4: TLayout
+      Align = Center
+      Size.Width = 113.000000000000000000
+      Size.Height = 73.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      object ComboBoxBreakTime: TComboBox
+        Align = Center
+        Items.Strings = (
+          '3'
+          '5'
+          '10'
+          '15'
+          '20'
+          '25'
+          '30'
+          '40'
+          '45'
+          '60')
+        ItemIndex = 1
+        Margins.Top = 20.000000000000000000
+        Margins.Bottom = 20.000000000000000000
+        Size.Width = 65.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+      end
+      object Label4: TLabel
+        Align = Top
+        StyledSettings = [Size, Style]
+        Size.Width = 113.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Verdana'
+        TextSettings.FontColor = claWhite
+        TextSettings.HorzAlign = Center
+        Text = 'Tempo intervalo'
+        TabOrder = 1
+      end
+    end
+    object Layout5: TLayout
+      Align = MostRight
+      Position.X = 367.000000000000000000
+      Size.Width = 113.000000000000000000
+      Size.Height = 73.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object ComboBoxSprintsMult: TComboBox
+        Align = Center
+        Items.Strings = (
+          '2'
+          '3'
+          '4'
+          '5'
+          '6'
+          '7'
+          '8'
+          '9'
+          '10'
+          '11'
+          '12')
+        ItemIndex = 1
+        Margins.Top = 20.000000000000000000
+        Margins.Bottom = 20.000000000000000000
+        Size.Width = 65.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+      end
+      object Label5: TLabel
+        Align = Top
+        StyledSettings = [Size, Style]
+        Size.Width = 113.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Verdana'
+        TextSettings.FontColor = claWhite
+        TextSettings.HorzAlign = Center
+        Text = 'Blocos'
+        TabOrder = 1
+      end
+    end
+  end
+end

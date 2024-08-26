@@ -1,0 +1,127 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 720
+  ClientWidth = 480
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop, iPhone, iPad]
+  DesignerMasterStyle = 0
+  object Circle1: TCircle
+    Align = Center
+    Fill.Color = claTomato
+    Size.Width = 332.000000000000000000
+    Size.Height = 431.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object Label1: TLabel
+      Align = Center
+      StyledSettings = []
+      Size.Width = 215.000000000000000000
+      Size.Height = 194.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Verdana'
+      TextSettings.Font.Size = 44.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      Text = '25:00'
+      TabOrder = 0
+    end
+  end
+  object Layout1: TLayout
+    Align = Bottom
+    Position.Y = 608.000000000000000000
+    Size.Width = 480.000000000000000000
+    Size.Height = 112.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Reset: TRectangle
+      Align = Right
+      Fill.Kind = Gradient
+      Fill.Gradient.Points = <
+        item
+          Color = claTomato
+          Offset = 0.000000000000000000
+        end
+        item
+          Color = xFFFF2626
+          Offset = 1.000000000000000000
+        end>
+      Fill.Gradient.StartPosition.X = 0.500000000000000000
+      Fill.Gradient.StartPosition.Y = 1.000000000000000000
+      Fill.Gradient.StopPosition.X = 0.499999970197677600
+      Fill.Gradient.StopPosition.Y = 0.000000000000000000
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 25.000000000000000000
+      Margins.Right = 25.000000000000000000
+      Margins.Bottom = 25.000000000000000000
+      Position.X = 8.000000000000000000
+      Position.Y = 25.000000000000000000
+      Size.Width = 118.000000000000000000
+      Size.Height = 62.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+    end
+    object Play: TRectangle
+      Align = Right
+      Fill.Kind = Gradient
+      Fill.Gradient.Points = <
+        item
+          Color = claTomato
+          Offset = 0.000000000000000000
+        end
+        item
+          Color = xFFFF2626
+          Offset = 1.000000000000000000
+        end>
+      Fill.Gradient.StartPosition.X = 0.500000000000000000
+      Fill.Gradient.StartPosition.Y = 1.000000000000000000
+      Fill.Gradient.StopPosition.X = 0.499999970197677600
+      Fill.Gradient.StopPosition.Y = 0.000000000000000000
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 25.000000000000000000
+      Margins.Right = 25.000000000000000000
+      Margins.Bottom = 25.000000000000000000
+      Position.X = 344.000000000000000000
+      Position.Y = 25.000000000000000000
+      Size.Width = 111.000000000000000000
+      Size.Height = 62.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+    end
+    object Stop: TRectangle
+      Align = Right
+      Fill.Kind = Gradient
+      Fill.Gradient.Points = <
+        item
+          Color = claTomato
+          Offset = 0.000000000000000000
+        end
+        item
+          Color = xFFFF2626
+          Offset = 1.000000000000000000
+        end>
+      Fill.Gradient.StartPosition.X = 0.500000000000000000
+      Fill.Gradient.StartPosition.Y = 1.000000000000000000
+      Fill.Gradient.StopPosition.X = 0.499999970197677600
+      Fill.Gradient.StopPosition.Y = 0.000000000000000000
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 25.000000000000000000
+      Margins.Right = 25.000000000000000000
+      Margins.Bottom = 25.000000000000000000
+      Position.X = 176.000000000000000000
+      Position.Y = 25.000000000000000000
+      Size.Width = 118.000000000000000000
+      Size.Height = 62.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+    end
+  end
+  object Temporizador: TTimer
+    OnTimer = TemporizadorTimer
+    Left = 432
+    Top = 520
+  end
+end
