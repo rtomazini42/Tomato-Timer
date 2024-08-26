@@ -1,4 +1,4 @@
-## Timer Temático de Tomate
+## Timer com Temático de Tomate
 
 Este é um projeto desenvolvido em Delphi Pascal que consiste em um timer para alternar entre períodos de sprint e estudo, inspirado na técnica de gerenciamento de tempo, mas sem utilizar o nome "Pomodoro". A temática é de tomate, com elementos visuais e animações que remetem a esse conceito. 
 
