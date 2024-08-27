@@ -12,8 +12,6 @@ Este é um projeto desenvolvido em Delphi Pascal que consiste em um timer para a
 ### Próximas Implementações:
 - **Som de Alarme**: Alerta sonoro ao final de cada período.
 
-![Git]()
-
 
 ## Tomato-Themed Timer
 
